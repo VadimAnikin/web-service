@@ -1,0 +1,181 @@
+<html>
+<body>
+    <h3> Transaction details Form</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="Levy">Levy</label>
+    <input type="number" id = "Levy" name = "Levy">
+    <br>
+    <label for="Manufacturer">Manufacturer</label>
+    <select id="Manufacturer" name="Manufacturer">
+	<option value="LEXUS">LEXUS</option>
+	<option value="CHEVROLET">CHEVROLET</option>
+	<option value="HONDA">HONDA</option>
+	<option value="FORD">FORD</option>
+	<option value="HYUNDAI">HYUNDAI</option>
+	<option value="TOYOTA">TOYOTA</option>
+	<option value="MERCEDES-BENZ">MERCEDES-BENZ</option>
+	<option value="OPEL">OPEL</option>
+	<option value="PORSCHE">PORSCHE</option>
+	<option value="BMW">BMW</option>
+	<option value="JEEP">JEEP</option>
+	<option value="VOLKSWAGEN">VOLKSWAGEN</option>
+	<option value="AUDI">AUDI</option>
+	<option value="RENAULT">RENAULT</option>
+	<option value="NISSAN">NISSAN</option>
+	<option value="SUBARU">SUBARU</option>
+	<option value="DAEWOO">DAEWOO</option>
+	<option value="KIA">KIA</option>
+	<option value="MITSUBISHI">MITSUBISHI</option>
+	<option value="SSANGYONG">SSANGYONG</option>
+	<option value="MAZDA">MAZDA</option>
+	<option value="GMC">GMC</option>
+	<option value="FIAT">FIAT</option>
+	<option value="INFINITI">INFINITI</option>
+	<option value="ALFA ROMEO">ALFA ROMEO</option>
+	<option value="SUZUKI">SUZUKI</option>
+	<option value="ACURA">ACURA</option>
+	<option value="LINCOLN">LINCOLN</option>
+	<option value="VAZ">VAZ</option>
+	<option value="GAZ">GAZ</option>
+	<option value="CITROEN">CITROEN</option>
+	<option value="LAND ROVER">LAND ROVER</option>
+	<option value="MINI">MINI</option>
+	<option value="DODGE">DODGE</option>
+	<option value="CHRYSLER">CHRYSLER</option>
+	<option value="JAGUAR">JAGUAR</option>
+	<option value="ISUZU">ISUZU</option>
+	<option value="SKODA">SKODA</option>
+	<option value="DAIHATSU">DAIHATSU</option>
+	<option value="BUICK">BUICK</option>
+	<option value="TESLA">TESLA</option>
+	<option value="CADILLAC">CADILLAC</option>
+	<option value="PEUGEOT">PEUGEOT</option>
+	<option value="BENTLEY">BENTLEY</option>
+	<option value="VOLVO">VOLVO</option>
+	<option value="სხვა">სხვა</option>
+	<option value="HAVAL">HAVAL</option>
+	<option value="HUMMER">HUMMER</option>
+	<option value="SCION">SCION</option>
+	<option value="UAZ">UAZ</option>
+	<option value="MERCURY">MERCURY</option>
+	<option value="ZAZ">ZAZ</option>
+	<option value="ROVER">ROVER</option>
+	<option value="SEAT">SEAT</option>
+	<option value="LANCIA">LANCIA</option>
+	<option value="MOSKVICH">MOSKVICH</option>
+	<option value="MASERATI">MASERATI</option>
+	<option value="FERRARI">FERRARI</option>
+	<option value="SAAB">SAAB</option>
+	<option value="LAMBORGHINI">LAMBORGHINI</option>
+	<option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+	<option value="PONTIAC">PONTIAC</option>
+	<option value="SATURN">SATURN</option>
+	<option value="ASTON MARTIN">ASTON MARTIN</option>
+	<option value="GREATWALL">GREATWALL</option>
+    </select>
+    <br>
+    <label for="Model">Model</label>
+    <input type="text" id="Model" name="Model">
+    <br>
+    <label for="Prod. year">Prod. year</label>
+    <input type="number" id="Prod. year" name="Prod. year">
+    <br>
+    <label for="Category">Category</label>
+    <select id="Category" name="Category">
+      <option value="Jeep">Jeep</option>
+      <option value="Hatchback">Hatchback</option>
+      <option value="Sedan">Sedan</option>
+      <option value="Microbus">Microbus</option>
+      <option value="Goods wagon">Goods wagon</option>
+      <option value="Universal">Universal</option>
+      <option value="Coupe">Coupe</option>
+      <option value="Minivan">Minivan</option>
+      <option value="Cabriolet">Cabriolet</option>
+      <option value="Limousine">Limousine</option>
+      <option value="Pickup">Pickup</option>
+    </select>
+    <br>
+    <label for="Leather interior">Leather interior</label>
+    <select id="Leather interior" name="Leather interior">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <br>
+    <label for="Fuel type">Fuel type</label>
+    <select id="Fuel type" name="Fuel type">
+      <option value="Hybrid">Hybrid</option>
+      <option value="Petrol">Petrol</option>
+      <option value="Diesel">Diesel</option>
+      <option value="CNG">CNG</option>
+      <option value="Plug-in Hybrid">Plug-in Hybrid</option>
+      <option value="LPG">LPG</option>
+      <option value="Hydrogen">Hydrogen</option>
+    </select>
+    <br>
+    <label for="Engine volume">Engine volume</label>
+    <input type="number" id="Engine volume" name="Engine volume">
+    <br>
+    <label for="Mileage">Mileage</label>
+    <input type="number" id="Mileage" name="Mileage">
+    <br>
+    <label for="Cylinders">Cylinders</label>
+    <input type="number" id="Cylinders" name="Cylinders">
+    <br>
+    <label for="Gear box type">Gear box type</label>
+    <select id="Gear box type" name="Gear box type">
+      <option value="Automatic">Automatic</option>
+      <option value="Tiptronic">Tiptronic</option>
+      <option value="Variator">Variator</option>
+      <option value="Manual">Manual</option>
+    </select>
+    <br>
+    <label for="Drive wheels">Drive wheels</label>
+    <select id="Drive wheels" name="Drive wheels">
+      <option value="4x4">4x4</option>
+      <option value="Front">Front</option>
+      <option value="Rear">Rear</option>
+    </select>
+    <br>
+    <label for="Doors">Doors</label>
+    <select id="Doors" name="Doors">
+      <option value="04-May">04-May</option>
+      <option value="02-Mar">02-Mar</option>
+      <option value=">5">>5</option>
+    </select>
+    <br>
+    <label for="Wheel">Wheel</label>
+    <select id="Wheel" name="Wheel">
+      <option value="Left wheel">Left wheel</option>
+      <option value="Right-hand drive">Right-hand drive</option>
+    </select>
+    <br>
+    <label for="Color">Color</label>
+    <select id="Color" name="Color">
+      <option value="Silver">Silver</option>
+      <option value="Black">Black</option>
+      <option value="White">White</option>
+      <option value="Grey">Grey</option>
+      <option value="Blue">Blue</option>
+      <option value="Green">Green</option>
+      <option value="Red">Red</option>
+      <option value="Sky blue">Sky blue</option>
+      <option value="Orange">Orange</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Brown">Brown</option>
+      <option value="Golden">Golden</option>
+      <option value="Beige">Beige</option>
+      <option value="Carnalian red">Carnalian red</option>
+      <option value="Purple">Purple</option>
+      <option value="Pink">Pink</option>
+    </select>
+    <br>
+    <label for="Airbags">Airbags</label>
+    <input type="text" id="Airbags" name="Airbags">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
